@@ -1,0 +1,16 @@
+.sidebar {
+  text-align: center;
+  .logo {
+    img {
+      width: 6rem;
+      height: 6rem;
+      object-fit: cover;
+      filter: drop-shadow(3px 2px 1px #424242);
+    }
+  }
+  .sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

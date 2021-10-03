@@ -1,0 +1,23 @@
+.app{
+    width: calc(100vw - 2rem );
+    height: calc(100vh - 2rem);
+    background: linear-gradient(to top , rgb(98, 213, 228) 10%, #1bb0eb 90%);  
+    display: flex;
+    padding: 1rem;
+    .menu{
+      width:10rem;
+    } 
+    .mainboard{
+      width: 100%;
+    }  
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }

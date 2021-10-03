@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    .compName{
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #f5f5f5;
+        text-shadow: 1px 1px 1px #75b3dd,
+            1px 2px 1px #75b3dd,
+            1px 5px 6px rgba(16,16,16,0.4),
+    }
+}
